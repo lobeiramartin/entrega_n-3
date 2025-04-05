@@ -1,0 +1,18 @@
+.sucursales {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  
+    .caballito,
+    .devoto,
+    .moron {
+      padding: 10px;
+      margin: 10px;
+      text-align: center;
+      align-items: center;
+      -o-object-position: center;
+      object-position: center;
+    }
+  }

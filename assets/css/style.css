@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+@media (max-width: 576px) {
+  body {
+    background-color: grey;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    background-color: grey;
+  }
+}
+@media (min-width: 769px) {
+  body {
+    background-color: grey;
+  }
+}
+
+h1 {
+  color: rgb(110, 7, 7);
+  margin: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(172, 26, 0);
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.container-fluid {
+  background-color: black;
+  padding: 15px;
+}
+.container-fluid .nav-item a {
+  color: white;
+}
+.container-fluid .nav-item a:hover {
+  color: #517691;
+}
+.container-fluid .navbar .btn-outline-success {
+  color: white;
+  border: 1px solid black;
+}
+.container-fluid .navbar .btn-outline-success:hover {
+  background-color: #517691;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(36, 173, 173);
+  padding: 20px;
+  margin: 10px;
+}
+footer .brand {
+  justify-content: right;
+}
+footer .social-icons {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+footer .social-icons a {
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+}
+footer .social-icons a:hover {
+  color: #0e4770;
+  animation: bounce;
+  animation-duration: 0.5s;
+}
+
+.index {
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+}
+.index img {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.index .carousel.slide {
+  margin: 10px;
+  padding: 10px;
+  transition: 1s;
+}
+
+.nosotros {
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.nosotros .card {
+  width: 700px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10% 25%;
+  transition: border-radius 0.5s;
+}
+.nosotros .card:hover {
+  border-radius: 25% 10%;
+  overflow: hidden;
+  transition: 1s;
+}
+.nosotros .nosotros1 {
+  width: 100%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-color: lightgray;
+}
+.nosotros .nosotros1:hover img {
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: 1s;
+}
+.nosotros .nosotros2 {
+  width: 100%;
+  overflow: hidden;
+  font-size: large;
+  background-color: lightgray;
+}
+.nosotros .nosotros2:hover img {
+  transform: scale(1.2);
+  overflow: hidden;
+  transition: 1s;
+}
+
+.catalogo {
+  padding: 10px;
+  margin: 10px;
+  background-color: grey;
+  align-items: center;
+}
+.catalogo div {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.catalogo .tattoo1 {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  font-size: large;
+  text-align: auto;
+}
+.catalogo .tattoo2 {
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+  font-display: right;
+  align-items: left;
+  text-align: auto;
+}
+.catalogo .tattoo3 {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  font-size: large;
+  text-align: auto;
+}
+
+.sucursales {
+  background-color: lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.sucursales .caballito,
+.sucursales .devoto,
+.sucursales .moron {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.formulario {
+  background-color: grey;
+  padding: 10px;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

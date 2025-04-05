@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(36, 173, 173);
+  padding: 20px;
+  margin: 10px;
+
+  .brand {
+    justify-content: right;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+
+    a {
+      font-size: 24px;
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        color: #0e4770;
+        animation: bounce;
+        animation-duration: 0.5s;
+      }
+    }
+  }
+}

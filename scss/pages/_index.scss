@@ -1,0 +1,19 @@
+.index {
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+
+  img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+  }
+
+  .carousel {
+    &.slide {
+      margin: 10px;
+      padding: 10px;
+      transition: 1s;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.catalogo {
+    padding: 10px;
+    margin: 10px;
+    background-color: grey;
+    align-items: center;
+  
+    div {
+      background-color: lightgray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .tattoo1 {
+      padding: 10px;
+      margin: 10px;
+      display: flex;
+      font-size: large;
+      text-align: auto;
+    }
+  
+    .tattoo2 {
+      padding: 10px;
+      margin: 10px;
+      font-size: large;
+      font-display: right;
+      align-items: left;
+      text-align: auto;
+    }
+  
+    .tattoo3 {
+      padding: 10px;
+      margin: 10px;
+      display: flex;
+      font-size: large;
+      text-align: auto;
+    }
+  }
